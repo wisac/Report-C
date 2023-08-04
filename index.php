@@ -59,8 +59,12 @@ if (isset($_POST['login'])) {
                         <img id="logo-img" src="images/REPORTC-logo.png" alt="logo">
                     </div>
                     <div class="school-box">
-                    
-                            <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
+
+                        <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
+                    </div>
+                    <div class="portal-container">
+                        <a class="teacher-portal portal-link" href="teacher.php">Teachers</a>
+                        <a class="parent-portal portal-link" href="parent.php">Parents</a>
                     </div>
                 </div>
                 <div class="col-lg-6 visible-lg-blockw">
