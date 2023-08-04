@@ -1,21 +1,64 @@
 .bg-container {
-    height: 100%;
+  height: 100%;
 }
 
 #login-bg {
-    background-size: cover;
-    z-index: -1;
-    position:absolute;
-    filter: grayscale(70%);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  filter: grayscale(70%);
 }
 
-.main-title {
-    font-weight: 600;
-    color: wheat;
+.logo-box {
+    width: fit-content;
+    margin-left: 5% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
+
+.school-box {
+    width: fit-content;
+    align-self: center
+}
+.logo-title {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  z-index: 5;
+  opacity: 100%;
+  width: fit-content;
+  margin: 0;
+  /* display: inline-block; */
+}
+
+#logo-img {
+    width: 200px;
+}
+
+.school-name {
+    /* width: fit-content;
+    display: inline-block; */
+    /* margin-left: 20%; */
+    text-align: center;
+}
+
+.welcome-message {
+    text-align: center;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .title-container {
-    background-image: linear-gradient(to left, #36581f, #8fb619c0);
-    /* background-color: #677d3e; */
-    opacity: 50%;
+  background-image: linear-gradient(to left, #36581f80, #8fb6196f);
+  /* background-color: #677d3e66; */
+  /* opacity: 50%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30%;
+
 }

@@ -54,8 +54,14 @@ if (isset($_POST['login'])) {
         <div class="">
             <div class="row">
                 <div class="title-container">
-                    <h1 class="main-title" align="center">REPORTC</h1>
-                    <h1 align="center">Ashaiman Mandela School</h1>
+                    <div class="logo-box">
+                        <!-- <h1 class="logo-title" align="">REPORTC</h1> -->
+                        <img id="logo-img" src="images/REPORTC-logo.png" alt="logo">
+                    </div>
+                    <div class="school-box">
+                        <h1 class="welcome-message">Welcome!
+                            <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
+                    </div>
                 </div>
                 <div class="col-lg-6 visible-lg-blockw">
 
@@ -74,7 +80,8 @@ if (isset($_POST['login'])) {
                                             <div class="panel-body p-20">
 
                                                 <div class="section-title">
-                                                    <p class="sub-title">Student Result Management System</p>
+                                                    <p class="sub-title">Student Result Management System
+                                                    </p>
                                                 </div>
 
                                                 <form class="form-horizontal" method="post">
@@ -121,7 +128,8 @@ if (isset($_POST['login'])) {
                                             <div class="panel-body p-20">
 
                                                 <div class="section-title">
-                                                    <p class="sub-title">Student Result Management System</p>
+                                                    <p class="sub-title">Student Result Management System
+                                                    </p>
                                                 </div>
 
                                                 <form class="form-horizontal" method="post">
@@ -159,7 +167,8 @@ if (isset($_POST['login'])) {
                                             </div>
                                         </div>
                                         <!-- /.panel -->
-                                        <p class="text-muted text-center"><small>Copyright © 2020 REPORTC </a></small>
+                                        <p class="text-muted text-center"><small>Copyright © 2020 REPORTC
+                                                </a></small>
                                         </p>
                                     </div>
                                     <!-- /.col-md-11 -->
