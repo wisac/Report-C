@@ -59,7 +59,7 @@ if (isset($_POST['login'])) {
                         <img id="logo-img" src="images/REPORTC-logo.png" alt="logo">
                     </div>
                     <div class="school-box">
-                        <h1 class="welcome-message">Welcome!
+                    
                             <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
                     </div>
                 </div>

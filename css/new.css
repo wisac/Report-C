@@ -34,6 +34,7 @@
 
 #logo-img {
     width: 200px;
+
 }
 
 .school-name {
@@ -41,13 +42,20 @@
     display: inline-block; */
     /* margin-left: 20%; */
     text-align: center;
+    color: rgb(255, 251, 0);
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
 .welcome-message {
     text-align: center;
     /* display: inline-block; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 10px;
+    color: rgb(255, 251, 0);
 }
 
 
@@ -60,5 +68,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30%;
+
+  padding: 2%;
 
 }
