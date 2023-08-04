@@ -175,8 +175,7 @@ if (isset($_POST['login'])) {
                                             </div>
                                         </div>
                                         <!-- /.panel -->
-                                        <p class="text-muted text-center"><small>Copyright © 2023 REPORTC
-                                                </a></small>
+                                        
                                         </p>
                                     </div>
                                     <!-- /.col-md-11 -->
@@ -200,7 +199,7 @@ if (isset($_POST['login'])) {
 
                                 <div class="row mt-30 ">
                                     <div class="col-md-11">
-                                        <div class="panel">
+                                        <div class="panel teacher-pannel">
                                             <div class="panel-heading">
                                                 <div class="panel-title text-center">
                                                     <h4>Teachers Login</h4>
@@ -286,14 +285,6 @@ if (isset($_POST['login'])) {
         $(function () {
             
         });
-
-        
-
-
-        // document.querySelector(".teacher-portal").addEventListener("click", function(event) {
-        //     event.preventDefault();
-        //     document.querySelector(".teacher-container").classList.toggle("hidden")
-        // });
     </script>
 
 
