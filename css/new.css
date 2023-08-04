@@ -6,7 +6,7 @@
   background-size: cover;
   z-index: -1;
   position: absolute;
-  filter: grayscale(70%);
+  filter: grayscale(10%);
 }
 
 #logo-img {
@@ -50,7 +50,7 @@
 }
 
 .title-container {
-  background-image: linear-gradient(to left, #36581f80, #8fb6196f);
+  background-image: linear-gradient(to right, #36581f80, #84b61959);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -75,4 +75,12 @@
     margin: 20px;
     font-size: 1.2rem;
 
+}
+
+#click-here-link {
+    color: rgb(8, 179, 20);
+}
+
+.hidden {
+    display: none;
 }
