@@ -39,17 +39,24 @@ if (isset($_POST['login'])) {
     <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
     <link rel="stylesheet" href="css/prism/prism.css" media="screen"> <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+    <link rel="stylesheet" href="css/new.css" media="screen">
     <link rel="stylesheet" href="css/main.css" media="screen">
     <script src="js/modernizr/modernizr.min.js"></script>
 </head>
 
 <body class="">
+    <div class="bg-container">
+        <img id="login-bg" src="images/login-bg.jpg" alt="bg">
+    </div>
     <div class="main-wrapper">
+
 
         <div class="">
             <div class="row">
-                <h1 align="center">REPORTC</h1>
-                <h1 align="center">Student Result Management System</h1>
+                <div class="title-container">
+                    <h1 class="main-title" align="center">REPORTC</h1>
+                    <h1 align="center">Ashaiman Mandela School</h1>
+                </div>
                 <div class="col-lg-6 visible-lg-blockw">
 
                     <section class="section">

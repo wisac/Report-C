@@ -1,0 +1,21 @@
+.bg-container {
+    height: 100%;
+}
+
+#login-bg {
+    background-size: cover;
+    z-index: -1;
+    position:absolute;
+    filter: grayscale(70%);
+}
+
+.main-title {
+    font-weight: 600;
+    color: wheat;
+}
+
+.title-container {
+    background-image: linear-gradient(to left, #36581f, #8fb619c0);
+    /* background-color: #677d3e; */
+    opacity: 50%;
+}
