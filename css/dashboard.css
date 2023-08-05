@@ -1,3 +1,7 @@
 .bg-prefer {
     background-image: linear-gradient(to top, #3c8d1382, #45541694);
 }
+
+.bg-prefer-2 {
+    background-image: linear-gradient(to right, #2f4113, #898311);
+}
