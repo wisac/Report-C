@@ -1,7 +1,13 @@
 .bg-prefer {
-    background-image: linear-gradient(to top, #3c8d1382, #45541694);
+    background-image: linear-gradient(to left, #3c8d1382, #495a14c6);
 }
 
 .bg-prefer-2 {
-    background-image: linear-gradient(to right, #2f4113, #898311);
+    background-image:  linear-gradient(to right, #37580f, #dae1c1ca) !important;
+}
+
+
+.title-main {
+    color: white;
+    
 }

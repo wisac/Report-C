@@ -14,7 +14,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>REPORTC | Dashboard</title>
+        <title class="">REPORTC | Dashboard</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
@@ -24,7 +24,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <link rel="stylesheet" href="css/icheck/skins/line/red.css">
         <link rel="stylesheet" href="css/icheck/skins/line/green.css">
         <link rel="stylesheet" href="css/main.css" media="screen">
-        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/dashboard.css" media="screen">
         <script src="js/modernizr/modernizr.min.js"></script>
     </head>
 
@@ -104,7 +104,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                             <span class="number counter">
                                                 <?php echo htmlentities($totalclasses); ?>
                                             </span>
-                                            <span class="name">Total classes listed</span>
+                                            <span class="name">Total classes</span>
                                             <span class="bg-icon"><i class="fa fa-bank"></i></span>
                                         </a>
                                         <!-- /.dashboard-stat -->
