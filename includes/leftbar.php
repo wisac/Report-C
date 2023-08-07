@@ -2,8 +2,8 @@
     <div class="sidebar-content">
         <div class="user-info closed">
             <img src="http://placehold.it/90/c2c2c2?text=User" alt="John Doe" class="img-circle profile-img">
-            <h6 class="title">John Doe</h6>
-            <small class="info">PHP Developer</small>
+            <h6 class="title">Admin</h6>
+            <small class="info">AMS</small>
         </div>
         <!-- /.user-info -->
 
@@ -37,10 +37,9 @@
                         <li><a href="create-subject.php"><i class="fa fa-bars"></i> <span>Create Subject</span></a></li>
                         <li><a href="manage-subjects.php"><i class="fa fa fa-server"></i> <span>Manage
                                     Subjects</span></a></li>
-                        <li><a href="add-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Add Subject
-                                    Combination </span></a></li>
-                        <a href="manage-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Manage Subject
-                                Combination </span></a>
+                        <li><a href="add-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Assign Subjects </span></a></li>
+                        <a href="manage-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Manage Assigned Subject
+                             </span></a>
                 </li>
             </ul>
             </li>
