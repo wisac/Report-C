@@ -57,6 +57,7 @@ $error="Something went wrong. Please try again";
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
         <link rel="stylesheet" href="css/dashboard.css" media="screen">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen" >
         <link rel="stylesheet" href="css/prism/prism.css" media="screen" >
         <link rel="stylesheet" href="css/select2/select2.min.css" >
