@@ -33,6 +33,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
+        <link rel="stylesheet" href="css/dashboard.css" media="screen">
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen">
         <link rel="stylesheet" href="css/prism/prism.css" media="screen">
         <link rel="stylesheet" href="css/select2/select2.min.css">
@@ -120,7 +121,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 <div class="form-group">
                                                     <div class="col-sm-offset-2 col-sm-10">
                                                         <button type="submit" name="submit"
-                                                            class="btn btn-primary">Submit</button>
+                                                            class="btn btn-success">Submit</button>
                                                     </div>
                                                 </div>
                                             </form>

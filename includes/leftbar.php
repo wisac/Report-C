@@ -37,8 +37,8 @@
                         <li><a href="create-subject.php"><i class="fa fa-bars"></i> <span>Create Subject</span></a></li>
                         <li><a href="manage-subjects.php"><i class="fa fa fa-server"></i> <span>Manage
                                     Subjects</span></a></li>
-                        <li><a href="add-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Assign Subjects </span></a></li>
-                        <a href="manage-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Manage Assigned Subject
+                        <li><a href="assign-subject.php"><i class="fa fa-newspaper-o"></i> <span>Assign Subjects </span></a></li>
+                        <a href="manage-assignedsubject.php"><i class="fa fa-newspaper-o"></i> <span>Manage Assigned Subject
                              </span></a>
                 </li>
             </ul>
