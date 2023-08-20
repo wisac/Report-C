@@ -41,7 +41,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
         <link rel="stylesheet" href="css/dashboard.css" media="screen">
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen">
-      
+
         <link rel="stylesheet" href="css/main.css" media="screen">
         <script src="js/modernizr/modernizr.min.js"></script>
         <script type="text/javascript">
@@ -131,7 +131,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                         <strong>Oh snap!</strong>
                                                     <?php echo htmlentities($error); ?>
                                                     </div>
-                                                <?php } ?>
+                                            <?php } ?>
 
                                             <div class="panel-body">
 
