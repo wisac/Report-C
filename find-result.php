@@ -15,17 +15,39 @@ include('includes/config.php'); ?>
     <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
     <link rel="stylesheet" href="css/icheck/skins/flat/blue.css">
+    <link rel="stylesheet" href="css/new.css">
     <link rel="stylesheet" href="css/background.css" media="screen">
     <link rel="stylesheet" href="css/main.css" media="screen">
+   
     <script src="js/modernizr/modernizr.min.js"></script>
 </head>
 
-<body> 
-    <img class="bg-img" src="images/students_kids_on_rock.jpg">
+<body>
+
+    
+    <img class="bg-img" src="images/students_kids_class.jpg">
+    <div class="title-container" style="z-index: 5; position: absolute; right: 0; left: 0">
+                    <div class="logo-box">
+                        <!-- <h1 class="logo-title" align="">REPORTC</h1> -->
+                        <a href="index.php"><img id="logo-img" src="images/REPORTC-logo.png" alt="logo"></a>
+                    </div>
+                    <div class="school-box">
+
+                        <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
+                    </div>
+                    <div class="portal-container">
+                        <a class="teacher-portal portal-link" href="teachers.php">Teachers</a>
+                        <a class="parent-portal portal-link" href="find-result.php">Students</a>
+                        <a class="parent-portal portal-link" href="parent.php">Parents</a>
+
+                    </div>
+                </div>
     <div class="main-wrapper">
 
         <div class="login-bg-color bg-black-300">
+            
             <div class="row">
+                
                 <div class="col-md-4 col-md-offset-7">
                     <div class="panel login-box" style="opacity: 80%">
                         <div class="panel-heading">

@@ -40,6 +40,7 @@ if (isset($_POST['login'])) {
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
+    <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/new.css" media="screen">
     <link rel="stylesheet" href="css/main.css" media="screen">
     <script src="js/modernizr/modernizr.min.js"></script>
@@ -47,7 +48,7 @@ if (isset($_POST['login'])) {
 
 <body class="">
     <div class="bg-container">
-        <img id="login-bg" src="images/login-bg.jpg" alt="bg">
+        <img class=" bg-img teacher" src="images/teachers.jpg" alt="bg">
     </div>
     <div class="main-wrapper">
 
@@ -71,7 +72,7 @@ if (isset($_POST['login'])) {
                     </div>
                 </div>
             
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="opacity: 90%">
                     <section class="section">
                         <div class="row mt-40">
                             <div class="col-md-10 col-md-offset-1 pt-50">
@@ -143,7 +144,7 @@ if (isset($_POST['login'])) {
 
                 <!--Teachers Login-->
 
-                <div class="col-lg-6 teacher-container">
+                <div class="col-lg-6 teacher-container" style="opacity: 90%">
                     <section class="section">
                         <div class="row mt-40">
                             <div class="col-md-10 col-md-offset-1 pt-50">

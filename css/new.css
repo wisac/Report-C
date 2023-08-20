@@ -3,11 +3,12 @@
 }
 
 #login-bg {
-  background-size: cover;
+  background-size: auto;
+  /* height: 10vh; */
   z-index: -1;
   position: absolute;
-  filter: grayscale(10%);
-  filter:brightness(50%)
+  /* filter: grayscale(10%); */
+  /* filter:brightness(50%) */
 }
 
 #logo-img {

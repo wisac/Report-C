@@ -11,10 +11,15 @@ body {
   filter: brightness(80%);
   right: 0;
   width: 100vw; 
+ 
+}
+
+.teacher.bg-img {
+  z-index: -5;
 }
 
 .login-box {
-  margin-top: 10px !important;
+  margin-top: 50vh !important;
   margin-left: 20px;
   margin-right: 20px;
 }
