@@ -1,0 +1,20 @@
+body {
+  overflow:auto;
+  background-size: auto;
+  /* padding: 40%; */
+}
+
+
+.bg-img {
+  height: 100vh;
+  position: absolute;
+  filter: brightness(80%);
+  right: 0;
+  width: 100vw; 
+}
+
+.login-box {
+  margin-top: 10px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
