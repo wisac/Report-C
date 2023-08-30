@@ -12,7 +12,9 @@ include('includes/config.php');
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ashaiman Mandela School | Results</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css" media="screen"> -->
+
   <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
   <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
   <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen">
@@ -52,7 +54,8 @@ include('includes/config.php');
                 <div class="col-md-8 col-md-offset-2">
                   <div class="panel">
                     <div class="panel-heading">
-                      <div class="panel-title">
+                      <div class="panel-title"
+                        style="display: flex; justify-content: space-between; padding-left: 20px; padding-right: 20px">
                         <?php
 
                                                 $rollid = $_POST['rollid'];
@@ -68,19 +71,23 @@ include('includes/config.php');
                                                 $cnt = 1;
                                                 if ($stmt->rowCount() > 0) {
                                                     foreach ($resultss as $row) { ?>
-                        <p><b>Student Name :</b>
-                          <?php echo htmlentities($row->StudentName); ?>
-                        </p>
-                        <p><b>Student ID :</b>
-                          <?php echo htmlentities($row->RollId); ?>
-                        <p><b>Student Class:</b>
-                          <?php echo htmlentities($row->ClassName); ?>(
-                          <?php echo htmlentities($row->Section); ?>)
-                          <?php }
+                        <div style="">
+                          <p><b>Student Name :</b>
+                            <?php echo htmlentities($row->StudentName); ?>
+                          </p>
+                          <p><b>Student ID :</b>
+                            <?php echo htmlentities($row->RollId); ?>
+                          <p><b>Student Class:</b>
+                            <?php echo htmlentities($row->ClassName); ?>(
+                            <?php echo htmlentities($row->Section); ?>)
+                            <?php }
 
                                                     ?>
+                        </div>
+                        <img src="images/crest_sample.png" style=" height: 200px; display: inline" alt=" logo">
                       </div>
-                      <div class="panel-body p-20">
+
+                      <div class=" panel-body p-20">
 
 
 
@@ -189,7 +196,8 @@ include('includes/config.php');
                                                 } else { ?>
 
                             <div class="alert alert-danger left-icon-alert" role="alert">
-                              <strong>Sorry, Your ID was not found in the selected class. Please enter the correct ID
+                              <strong>Sorry, Your ID was not found in the selected class. Please enter the correct
+                                ID
                                 and select the correct class!</strong>
                               <?php
                                                                 echo htmlentities("");
@@ -210,8 +218,9 @@ include('includes/config.php');
 
                   <div class="form-group">
 
-                    <div class="col-sm-6">
-                      <a href="index.php">Back to Home</a>
+                    <div class="col-sm-6" style="">
+                      <a href=" index.php">Back to Home</a>
+                      <button onclick="window.print()" class=" btn btn-success ml-30" id="print">Print</button>
                     </div>
                   </div>
 
