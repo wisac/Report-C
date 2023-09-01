@@ -36,6 +36,7 @@ include('includes/config.php'); ?>
       <h1 class="school-name" align=" center">Ashaiman Mandela School</h1>
     </div>
     <div class="portal-container">
+      <a class="teacher-portal portal-link" href="index.php">Home</a>
       <a class="teacher-portal portal-link" href="teachers.php">Teachers</a>
       <a class="parent-portal portal-link" href="find-result.php">Students</a>
       <a class="parent-portal portal-link" href="parent.php">Parents</a>
@@ -53,7 +54,8 @@ include('includes/config.php'); ?>
       <div class="row">
 
         <div class="col-md-4 col-md-offset-4">
-          <div class="panel login-box" style="opacity: 100">
+
+          <div class="panel login-box" style="opacity: 100;  margin-top: 30vh !important;">
             <div class="panel-heading">
               <div class="panel-title text-center">
                 <h4><b>Parents Portal.</b></h4>

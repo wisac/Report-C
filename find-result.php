@@ -36,6 +36,7 @@ include('includes/config.php'); ?>
       <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
     </div>
     <div class="portal-container">
+      <a class="teacher-portal portal-link" href="index.php">Home</a>
       <a class="teacher-portal portal-link" href="teachers.php">Teachers</a>
       <a class="parent-portal portal-link" href="find-result.php">Students</a>
       <a class="parent-portal portal-link" href="parent.php">Parents</a>

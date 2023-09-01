@@ -61,6 +61,7 @@ if (isset($_POST['login'])) {
       <h1 class="school-name" align="center">Ashaiman Mandela School</h1>
     </div>
     <div class="portal-container">
+      <a class="teacher-portal portal-link" href="index.php">Home</a>
       <a class="teacher-portal portal-link" href="teachers.php">Teachers</a>
       <a class="parent-portal portal-link" href="find-result.php">Students</a>
       <a class="parent-portal portal-link" href="parent.php">Parents</a>
@@ -71,11 +72,11 @@ if (isset($_POST['login'])) {
 
     <div class="login-bg-color bg-black-300">
 
-      <div class="row" >
+      <div class="row">
 
-        <div class="col-lg-12" >
-          <div style="height: 100vh; width: 100vw; background-color: rgba(0,0,0,0.75); position: absolute; z-index: 0">
-      
+        <div class="col-lg-12">
+          <div style="height: 100vh; width: 100vw; background-color: rgba(0,0,0,0.65); position: absolute; z-index: 0">
+
           </div>
           <div class="content" style="margin: auto 10%; position: sticky;">
             <br></br>
@@ -85,12 +86,13 @@ if (isset($_POST['login'])) {
             <h2>Welcome!</h2>
             <br></br>
 
-            <h1 class="school-name" style="z-index: 2" >Ashaiman Mandela School</h1>
-           
+            <h1 class="school-name" style="z-index: 2">Ashaiman Mandela School</h1>
+
 
             <br></br>
 
-            <p class="school-message"> Discover Ashaiman Mandela School, a shining beacon of education in the heart of Lebanon zone 4,
+            <p class="school-message"> Discover Ashaiman Mandela School, a shining beacon of education in the heart of
+              Lebanon zone 4,
               Ashaiman. Our school is dedicated to nurturing excellence and providing a caring atmosphere for students
               to thrive. Our devoted teachers employ interactive methods that ignite curiosity and promote critical
               thinking. With modern classrooms and labs on our campus, we ensure an optimal learning journey.
