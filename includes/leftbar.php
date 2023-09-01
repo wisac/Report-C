@@ -3,7 +3,7 @@
         <div class="user-info closed">
             <img src="http://placehold.it/90/c2c2c2?text=User" alt="John Doe" class="img-circle profile-img">
             <h6 class="title">Admin</h6>
-            <small class="info">AMS</small>
+            <small class="info">Ashaiman Mandela School</small>
         </div>
         <!-- /.user-info -->
 
