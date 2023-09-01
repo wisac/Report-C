@@ -1,15 +1,3 @@
-.bg-container {
-  height: 100%;
-}
-
-#login-bg {
-  background-size: auto;
-  /* height: 10vh; */
-  z-index: -1;
-  position: absolute;
-  /* filter: grayscale(10%); */
-  /* filter:brightness(50%) */
-}
 
 #logo-img {
   width: 200px;
@@ -26,6 +14,7 @@
 .school-box {
   width: fit-content;
   align-self: center;
+  display: none;
 }
 .logo-title {
   font-weight: 600;
@@ -38,11 +27,24 @@
 }
 
 .school-name {
-  text-align: center;
-  color: rgb(255, 251, 0);
+  /* text-align: center; */
+  color: rgb(255, 251, 0) !important;
   font-weight: 600;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.school-info{
+  /* text-align: center; */
+  color: rgb(255, 251, 0) !important;
+  /* font-weight: 600; */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.school-message {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .welcome-message {
@@ -55,9 +57,10 @@
   background-image: linear-gradient(to right, #36581f80, #84b61959);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   /* gap: 30%; */
-  padding: 2%;
+  padding: 2% 10%; 
+z-index: 4;
 }
 
 
@@ -96,3 +99,6 @@
 .drop-select option {
   background-color: red;
 }
+
+
+

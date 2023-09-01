@@ -74,18 +74,23 @@ if (isset($_POST['login'])) {
       <div class="row" >
 
         <div class="col-lg-12" >
-          <div style="height: 100vh; width: 100vw; background-color: rgba(0,0,0,0.75); position: absolute;">
+          <div style="height: 100vh; width: 100vw; background-color: rgba(0,0,0,0.75); position: absolute; z-index: 0">
       
           </div>
-          <div class="content" style="margin: auto 10%">
+          <div class="content" style="margin: auto 10%; position: sticky;">
             <br></br>
             <br></br>
             <br></br>
 
-            <h1>Ashaiman Mandela School</h1>
+            <h2>Welcome!</h2>
             <br></br>
 
-            <p> Discover Ashaiman Mandela School, a shining beacon of education in the heart of Lebanon zone 4,
+            <h1 class="school-name" style="z-index: 2" >Ashaiman Mandela School</h1>
+           
+
+            <br></br>
+
+            <p class="school-message"> Discover Ashaiman Mandela School, a shining beacon of education in the heart of Lebanon zone 4,
               Ashaiman. Our school is dedicated to nurturing excellence and providing a caring atmosphere for students
               to thrive. Our devoted teachers employ interactive methods that ignite curiosity and promote critical
               thinking. With modern classrooms and labs on our campus, we ensure an optimal learning journey.
@@ -94,9 +99,14 @@ if (isset($_POST['login'])) {
               passions. At Ashaiman Mandela School, we emphasize vital values such as respect and empathy, shaping
               responsible citizens for tomorrow.</p>
 
-            <h2>For more details, don't hesitate to contact us at 0244818069 or 0243971566.</h2>
+            <h2>For more details, don't hesitate to contact us</h2>
+
+            <h2 class="school-info">Zone 4, Lebanon, Ashaiman</h2>
+            <h2 class="school-info">Greater Accra, Ghana.</h2>
+            <h2 class="school-info">0244818069 or 0243971566</h2>
+
             <br></br>
-            <h3> Join us in crafting a brighter future together.</h3>
+            <h3> Join us in crafting a brighter future together!</h3>
           </div>
           <p class="text-muted text-center"><small>Copyright © 2023 REPORTC</small></p>
         </div>
