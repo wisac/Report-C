@@ -110,21 +110,12 @@ else if($error){?>
                                                             <th>#</th>
                                                             <th>Class Name</th>
                                                             <th>Class Name Numeric</th>
-                                                            <th>Section</th>
+                                                            <th>Year</th>
                                                             <th>Creation Date</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
-                                                    <tfoot>
-                                                        <tr>
-                                                          <th>#</th>
-                                                            <th>Class Name</th>
-                                                            <th>Class Name Numeric</th>
-                                                            <th>Section</th>
-                                                            <th>Creation Date</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </tfoot>
+                                                    
                                                     <tbody>
 <?php $sql = "SELECT * from tblclasses";
 $query = $dbh->prepare($sql);

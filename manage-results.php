@@ -111,24 +111,14 @@ else if($error){?>
                                                         <tr>
                                                             <th>#</th>
                                                             <th>Student Name</th>
-                                                            <th>Student id</th>
+                                                            <th>Student ID</th>
                                                             <th>Class</th>
                                                             <th>Reg Date</th>
                                                             <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
-                                                    <tfoot>
-                                                        <tr>
-                                                          <th>#</th>
-                                                            <th>Student Name</th>
-                                                            <th>Student id</th>
-                                                            <th>Class</th>
-                                                            <th>Reg Date</th>
-                                                            <th>Status</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </tfoot>
+                                                    
                                                     <tbody>
 <?php $sql = "SELECT  distinct tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblresult join tblstudents on tblstudents.StudentId=tblresult.StudentId  join tblclasses on tblclasses.id=tblresult.ClassId";
 $query = $dbh->prepare($sql);

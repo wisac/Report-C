@@ -117,16 +117,7 @@ else if($error){?>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
-                                                    <tfoot>
-                                                        <tr>
-                                                          <th>#</th>
-                                                             <th>Subject Name</th>
-                                                            <th>Subject Code</th>
-                                                            <th>Creation Date</th>
-                                                            <th>Updation Date</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </tfoot>
+                                                    
                                                     <tbody>
 <?php $sql = "SELECT * from tblsubjects";
 $query = $dbh->prepare($sql);

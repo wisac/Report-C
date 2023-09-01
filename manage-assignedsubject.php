@@ -133,21 +133,13 @@ else if($error){?>
                                                     <thead>
                                                         <tr>
                                                             <th>#</th>
-                                                            <th>Class and Section</th>
+                                                            <th>Class and Year</th>
                                                             <th>Subject </th>
                                                             <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
-                                                    <tfoot>
-                                                        <tr>
-                                                          <th>#</th>
-                                                            <th>Class and Section</th>
-                                                            <th>Subject </th>
-                                                            <th>Status</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </tfoot>
+                                                    
                                                     <tbody>
 <?php $sql = "SELECT tblclasses.ClassName,tblclasses.Section,tblsubjects.SubjectName,tblsubjectcombination.id as scid,tblsubjectcombination.status from tblsubjectcombination join tblclasses on tblclasses.id=tblsubjectcombination.ClassId  join tblsubjects on tblsubjects.id=tblsubjectcombination.SubjectId";
 $query = $dbh->prepare($sql);
@@ -160,7 +152,7 @@ foreach($results as $result)
 {   ?>
 <tr>
  <td><?php echo htmlentities($cnt);?></td>
-                                                            <td><?php echo htmlentities($result->ClassName);?> &nbsp; Section-<?php echo htmlentities($result->Section);?></td>
+                                                            <td><?php echo htmlentities($result->ClassName);?> &nbsp; Year-<?php echo htmlentities($result->Section);?></td>
                                                             <td><?php echo htmlentities($result->SubjectName);?></td>
                                                              <td><?php $stts=$result->status;
 if($stts=='0')

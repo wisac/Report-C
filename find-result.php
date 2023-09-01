@@ -80,7 +80,7 @@ include('includes/config.php'); ?>
                                             foreach ($results as $result) { ?>
                     <option value="<?php echo htmlentities($result->id); ?>">
                       <?php echo htmlentities($result->ClassName); ?>&nbsp;
-                      Section-<?php echo htmlentities($result->Section); ?></option>
+                      Year-<?php echo htmlentities($result->Section); ?></option>
                     <?php }
                                         } ?>
                   </select>

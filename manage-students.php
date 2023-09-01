@@ -111,24 +111,14 @@ else if($error){?>
                                                         <tr>
                                                             <th>#</th>
                                                             <th>Student Name</th>
-                                                            <th>Roll Id</th>
+                                                            <th>Student ID</th>
                                                             <th>Class</th>
                                                             <th>Reg Date</th>
                                                             <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
-                                                    <tfoot>
-                                                        <tr>
-                                                          <th>#</th>
-                                                            <th>Student Name</th>
-                                                            <th>Roll Id</th>
-                                                            <th>Class</th>
-                                                            <th>Reg Date</th>
-                                                            <th>Status</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </tfoot>
+                                                    
                                                     <tbody>
 <?php $sql = "SELECT tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId";
 $query = $dbh->prepare($sql);
@@ -222,7 +212,6 @@ else{
                     "scrollCollapse": true,
                     "paging":         false
                 } );
-
                 $('#example3').DataTable();
             });
         </script>

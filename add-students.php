@@ -6,7 +6,11 @@ if (strlen($_SESSION['alogin']) == "") {
     header("Location: index.php");
 } else {
     if (isset($_POST['submit'])) {
-        $studentname = $_POST['fullanme'];
+        $surname = $_POST['sname'];
+        $firstname = $_POST['fname'];
+        // $studentname = $_POST['fullanme'];
+        $studentname = $surname." ".$firstname;
+        
         $roolid = $_POST['rollid'];
         $studentemail = $_POST['emailid'];
         $gender = $_POST['gender'];
@@ -114,18 +118,26 @@ if (strlen($_SESSION['alogin']) == "") {
                                             <form class="form-horizontal" method="post">
 
                                                 <div class="form-group">
-                                                    <label for="default" class="col-sm-2 control-label">Full Name</label>
+                                                    <label for="default" class="col-sm-2 control-label">Surname</label>
                                                     <div class="col-sm-10">
-                                                        <input placeholder="First Name  Surname  Other Names" type="text" name="fullanme" class="form-control"
+                                                        <input placeholder="Surname" type="text" name="sname" class="form-control"
                                                             id="fullanme"
+                                                          required="required" autocomplete="off">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="default" class="col-sm-2 control-label">First Name</label>
+                                                    <div class="col-sm-10">
+                                                        <input placeholder="First Name" type="text" name="fname" class="form-control"
+                                                            id="fullname"
                                                           required="required" autocomplete="off">
                                                     </div>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label for="default" class="col-sm-2 control-label">Student id</label>
+                                                    <label for="default" class="col-sm-2 control-label">Student ID</label>
                                                     <div class="col-sm-10">
-                                                        <input type="text" name="rollid" class="form-control" id="rollid"
+                                                        <input type="text" name="rollid" class="form-control" placeholder="Student ID" id="rollid"
                                                             maxlength="5" required="required" autocomplete="off">
                                                     </div>
                                                 </div>
@@ -171,7 +183,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                             if ($query->rowCount() > 0) {
                                                                 foreach ($results as $result) { ?>
                                                                     <option value="<?php echo htmlentities($result->id); ?>"><?php echo htmlentities($result->ClassName); ?>&nbsp;
-                                                                        Section-<?php echo htmlentities($result->Section); ?>
+                                                                        Year-<?php echo htmlentities($result->Section); ?>
                                                                     </option>
                                                                 <?php }
                                                             } ?>
@@ -179,7 +191,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="date" class="col-sm-2 control-label">DOB</label>
+                                                    <label for="date" class="col-sm-2 control-label">Date Of Birth</label>
                                                     <div class="col-sm-10">
                                                         <input type="date" name="dob" class="form-control" id="date">
                                                     </div>

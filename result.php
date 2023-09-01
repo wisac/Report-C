@@ -35,7 +35,17 @@ include('includes/config.php');
           <div class="container-fluid">
             <div class="row page-title-div">
               <div class="col-md-12">
-                <h2 class="title" align="center">Ashaiman Mandela School</h2>
+                <h1 class="title" align="center">Ashaiman Mandela School</h1>
+                <h3 class="title" align="center">0244818069/0243971566</h3>
+                <h4 align="center">
+                  <u><b>
+                      Terminal Progress Report
+                    </b></u>
+                </h4>
+
+
+
+
               </div>
             </div>
             <!-- /.row -->
@@ -84,7 +94,7 @@ include('includes/config.php');
 
                                                     ?>
                         </div>
-                        <img src="images/crest_sample.png" style=" height: 200px; display: inline" alt=" logo">
+                        <img src="images/crest.png" style=" height: 100px; display: inline" alt=" logo">
                       </div>
 
                       <div class=" panel-body p-20">
