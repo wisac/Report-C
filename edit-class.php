@@ -80,7 +80,7 @@ if (strlen($_SESSION['alogin']) == "") {
                             <div class="container-fluid">
 
 
-
+                <!-- bootsrap container-->
 
 
                                 <div class="row">
