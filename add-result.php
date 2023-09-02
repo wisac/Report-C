@@ -1,6 +1,7 @@
 <?php
 session_start();
 error_reporting(0);
+//Connecting to database
 include 'includes/config.php';
 if (strlen($_SESSION['alogin']) == "") {
     header("Location: index.php");
