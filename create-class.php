@@ -152,7 +152,7 @@ else if($error){?>
                           <label for="success" class="control-label">Year</label>
                           <div class="">
                             <input type="text" name="section" class="form-control" required="required" id="success">
-                            <span class="help-block">Eg: 2022</span>
+                            <span class="help-block">Eg: 2022/2023</span>
                           </div>
                         </div>
                         <div class="form-group has-success">

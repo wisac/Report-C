@@ -52,7 +52,7 @@ CREATE TABLE `tblclasses` (
   `id` int(11) NOT NULL,
   `ClassName` varchar(80) DEFAULT NULL,
   `ClassNameNumeric` int(4) NOT NULL,
-  `Section` varchar(5) NOT NULL,
+  `Section` varchar(9) NOT NULL,
   `CreationDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UpdationDate` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -82,7 +82,7 @@ CREATE TABLE `tblresult` (
 CREATE TABLE `tblstudents` (
   `StudentId` int(11) NOT NULL,
   `StudentName` varchar(100) NOT NULL,
-  `RollId` varchar(100) NOT NULL,
+  `RollId` varchar(100) NOT NULL UNIQUE,
   `StudentEmail` varchar(100) NOT NULL,
   `Gender` varchar(10) NOT NULL,
   `DOB` varchar(100) NOT NULL,
